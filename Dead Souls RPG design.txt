@@ -1,0 +1,89 @@
+Dead Souls RPG design
+
+Vad har en karaktär för mängd Hit Points?
+Vad gör en karaktär för skada i antal Hit Points?
+Hur fungerar "armor"?
+Hur fungerar status effects?
+Hur beräknar man hur långt en karaktär kan gå?
+Ska vissa kunna hoppa över hinder?
+
+Character archetypes? Mix of archetypes?
+Archetypes help people understand what they classes are doing, and provide some base in a fantasy world they don't recognize. More advanced classes can be added later.
+
+Base classes:
+	
+	Tanks
+		Receive and somehow manage taking damage
+		Fat armor, magical defences, hard to hit, parry? All different ways to manage received damage.
+	Healers
+		Magical healing (lay-on-hands, zagovor)
+		Physical healing (herbs, bandages, oils etc)
+	Damagers
+		Melee DPS: martial arts, big weapons, magic
+		Ranged DPS: muskets, bows, crossbows, magic
+	Buffers/Debuffers
+		Magical effects: cripple, bless, blind, bad luck
+
+What I want:
+	Classes that aren't "only good for one thing"
+	Abilities may have secondary, tertiary effects. This will allow for certain roles to overlap, and hopefully make gameplay more emergent and complex.
+
+Status effects to consider:
+	Stun - character immobilized by pain or chock. Can lose grip/footing?
+	Knock-out - character loses consciousness, falls down.
+	Sleep - character falls asleep.
+	Poison - character takes X damage each round.
+	Curse/Evil Eye - character fails any dicerolls, or receives penalties?
+	Bound - character cannot move, but can attack/use magic
+	Silenced - character cannot use certain magic
+	Disarmed - character cannot attack
+
+Abilities and modifiers:
+	Attack
+		Character uses weapon to attack a target. Can be ranged or melee.
+	Leap
+		Character leaps over otherwise impassable terrain. Maybe have as passive ability?
+	Leap Attack
+		Character leaps to a unoccupied square near a target, and strikes that target. Bonus damage gets added.
+	Pushback
+		Character pushes target away from self. Push distance may vary based on character strength and target size (small targets go further)
+		Targets can be pushed off a ledge down into an abyss, deep water, or a trap.
+		Certain attacks are Pushbacks but also deal damage.
+	Vault Over
+		Character vaults over an target or an obstacle, lands behind it.
+		Vault Attack is when a character vaults over a target and strikes it from above.
+	Parry
+		Character uses weapon to deflect an incoming melee (or ranged?) attack. Can avoid taking damage alltogether.
+	Block
+		Character uses shield to absorb an incoming melee or ranged attack. Damage can still be received by character.
+	
+
+
+Possible classes
+	Strelets - (guardsman https://en.wikipedia.org/wiki/Streltsy)
+		Melee DPS, somewhat tanky. Can shoot with Musket-type guns?
+		Guardsmen are from the Royal Guard Regiment that protects some big ruler of the land. They're trained to use bardiches, sabres, and muskets. Fighting together with other Guardsmen makes them stronger.
+	Cossack
+		Melee and ranged fighter, agile
+		Cossack from the sietch, warrior tribesmen
+		Use flintlocks
+	Shaman/Druid type dude/gal (знахарь, волхв)
+		Low Magic Heals, buffs/debuffs
+		Not a fighter, but maybe sneaky in forests/natural environments?
+		Talk to animals/spirits/creatures? Charm them to help? Summon?
+	Hunter/Tracker/Ranger
+		Ranged fighter(bow, gun?)
+		Sneaky in forests/natural environments
+		Can also detect other sneakers in forests (bonus to hit?)
+		Fights best alone (far away from group)
+		Poisons
+	Wizard (Колдун)
+		some small heals and debuffs
+		mostly ranged damage pew pew fireballs shit
+	Legionaire
+		Landsknecht type dudes
+		Halberds, big zweihander swords. Heavy armor. Cool hats with feathers.
+	Musketeer
+		Agile fighter. Can vault over enemies/allies, parry and ripostes
+		Musket, or pistol+rapier
+		Good in groups of 3. Parry attacks against each other?
