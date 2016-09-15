@@ -53,10 +53,10 @@ Abilities and modifiers:
 		Character vaults over an target or an obstacle, lands behind it.
 		Vault Attack is when a character vaults over a target and strikes it from above.
 	Parry
-		Character uses weapon to deflect an incoming melee (or ranged?) attack. Can avoid taking damage alltogether.
+		Character uses weapon to deflect an incoming melee (or ranged?) attack. Can avoid taking damage alltogether. Can parry attacks incoming onto oneself, or parry attacks that are meant to hit adjacent allies.
 	Block
 		Character uses shield to absorb an incoming melee or ranged attack. Damage can still be received by character.
-	
+
 
 
 Possible classes
@@ -80,10 +80,12 @@ Possible classes
 	Wizard (Колдун)
 		some small heals and debuffs
 		mostly ranged damage pew pew fireballs shit
+	Enchanter/Warlock(Чародей)
+		Area of Effect spells. Poison clouds. Hallucinations.
 	Legionaire
 		Landsknecht type dudes
 		Halberds, big zweihander swords. Heavy armor. Cool hats with feathers.
 	Musketeer
 		Agile fighter. Can vault over enemies/allies, parry and ripostes
 		Musket, or pistol+rapier
-		Good in groups of 3. Parry attacks against each other?
+		Good in groups of 3. Parry attacks against each other, if close enough? SAVE AN ALLY!

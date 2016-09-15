@@ -13,6 +13,7 @@ public class EnemyMove : MonoBehaviour {
 	public int score;
 	public AudioSource hitSound;
 	Vector4 enemyShipColor = new Vector4(1,0,0,1);
+	private Object var_xplosionFX;
 	
 	void Start () {
 
@@ -25,6 +26,8 @@ public class EnemyMove : MonoBehaviour {
 		rend.enabled = true;
 		hitSound = GetComponent<AudioSource>();
 		rend.material.SetColor("_Color",enemyShipColor);
+		//pre-load the explosion particle fx prefab:
+		var_xplosionFX = Resources.Load("pref_Explosion");
 	}
 	// Update is called once per frame
 	void Update () {
@@ -52,9 +55,12 @@ public class EnemyMove : MonoBehaviour {
 			//this kills the Enemy. Do screenshake.
 			gameObject.tag = "lol";
 			PlayerShipVar.SendMessage("ScoreKeep", 1);
-			MainCameraVar.SendMessage("ShakeIt", 5);
+			//screenshake:
+			//MainCameraVar.SendMessage("ShakeIt", 5);
+			//create explosion effect, play sound:
 			PlayerShipVar.SendMessage("PlayAudioExplosion");
-			
+			Instantiate(var_xplosionFX, transform.position, transform.rotation);
+			//destroy self:
 			Destroy(gameObject);
 		}
 		

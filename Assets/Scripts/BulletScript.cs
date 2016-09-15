@@ -5,29 +5,24 @@ using System.Collections;
 
 public class BulletScript : MonoBehaviour {
 
-	public float birthTime = Time.time;
+	private float birthTime = Time.time;
+	public float bulletSpeed = 20f;
 
 	// Use this for initialization
 	void Start () {
-		//bla bla
-		//birthTime = Time.time;
+		//bullet kills itself after 3 seconds of existing
 		Destroy(gameObject, 3.0f);
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		transform.Translate(Vector3.right * 20 * Time.deltaTime);
-
-		//On collision with anything else
-		//wait 0,5 seconds
-		//Destroy self
-		//if(birthTime+10 > Time.time)
-		//	{Destroy(gameObject);}
+		transform.Translate(Vector3.right * bulletSpeed * Time.deltaTime);
 
 	}
 	void OnCollisionEnter() {
         //Bullet collides with anything, print it
 		Debug.Log("Bullet collides with something. Destroys self.");
+		//destroys itself
 		Destroy(gameObject, 0.001f);
     }
 }
