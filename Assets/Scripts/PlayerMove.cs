@@ -8,6 +8,7 @@ public class PlayerMove : MonoBehaviour {
 	public float translation;
 	private Quaternion rotation;
 	private float ClickMove = 0;
+    private float fadeLength;
 	private Vector2 touchOrigin = -Vector2.one;
 	public Animation ship_idle;
 	public Animation ship_moveUp;
@@ -39,13 +40,13 @@ public class PlayerMove : MonoBehaviour {
         if (Input.GetKeyDown("down") || Input.GetKeyDown("s")){
         	//ship_moveDown.Play();
            	//blend from current playing animation to anim_moveDown
-        	ship3danim.Play("anim_shipMoveDown");
+        	ship3danim.Blend("anim_shipMoveDown");
 
            //Debug.Log("down pressed");
         }
         else if (Input.GetKeyDown("up") || Input.GetKeyDown("w")){
         	//blend from current playing animation to anim_moveUp
-        	ship3danim.Play("anim_shipMoveUp");
+        	ship3danim.Blend("anim_shipMoveUp");
         }
         else if(Input.GetKeyUp("down") || Input.GetKeyUp("s") || Input.GetKeyUp("up") || Input.GetKeyUp("w")){
         	ship3danim.Play("anim_shipIdle");

@@ -1,10 +1,15 @@
 fileFormatVersion: 2
 guid: 5c31e531d0c714a9093aef84be3fcd41
-timeCreated: 1444684066
+timeCreated: 1474209568
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - material: {fileID: 2100000, guid: f09102808a7a24bc89ae1b0d3d6b7105, type: 2}
+  - rend: {instanceID: 0}
+  - PlayerShipVar: {instanceID: 0}
+  - MainCameraVar: {instanceID: 0}
+  - hitSound: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
